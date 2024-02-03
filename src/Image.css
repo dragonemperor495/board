@@ -1,0 +1,22 @@
+.image-with-button {
+    position: relative;
+  }
+  
+  .image-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-with-button:hover .image-button {
+    opacity: 1;
+  }
+  
